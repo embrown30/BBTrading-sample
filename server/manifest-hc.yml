@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 384M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: 'Blue Bank Trade'
+  host: bbtrading-hc
+  disk_quota: 1024M
+  env:
+    GWURL:  http://cap-sg-stage-2.integration.ibmcloud.com:15273
